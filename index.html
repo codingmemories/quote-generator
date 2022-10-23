@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quote Generator</title>
-    <link rel="icon" type="image/png" href="./assets/image/smile.png" />
+    <link rel="icon" type="image/png" href="./assets/image/mustache.png" />
     <link href="./style.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/83a77536b2.js"
@@ -31,7 +31,12 @@
         <button class="twitter-button" id="twitter" title="Tweet this!">
           <i class="fab fa-twitter"></i>
         </button>
-        <button id="new-quote">Co słychać mordeczko?</button>
+        <button onclick="clicked();audio.play();" id="new-quote">
+          Co słychać mordeczko?
+        </button>
+      </div>
+      <div>
+        <img id="img" src="./assets/image/rob.png" alt="rob" width="200" />
       </div>
     </div>
 
