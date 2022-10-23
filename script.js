@@ -30,15 +30,16 @@ function newQuote() {
   complete();
 }
 
-function clicked() {
-  if (img == 1) {
-    document.getElementById("img").style.display = "inline";
-    return (img = 0);
-  } else {
-    document.getElementById("img").style.display = "none";
-    return (img = 1);
-  }
-}
+// function clicked() {
+//   if (quoteText) {
+//     document.getElementById("quote").quoteText.textContent =
+//       "Zaraz naucze cie jak zyc";
+//     return true;
+//   } else {
+//     document.getElementById("quote").quoteText.textContent;
+//     return false;
+//   }
+// }
 
 const audio = new Audio();
 audio.src = "./assets/audio/gta.mp3";
